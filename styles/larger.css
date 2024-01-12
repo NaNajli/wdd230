@@ -1,0 +1,28 @@
+@media(min-width:640px) {
+    nav ul {
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    header {
+        display: block;
+        text-align: center;
+        font-size: 3rem;
+
+    }
+
+    nav ul li {
+        flex: 1 1 100%;
+    }
+
+    .parent {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+
+
+
+    }
+
+
+}
