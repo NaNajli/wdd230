@@ -23,7 +23,7 @@ header {
 
 }
 
-nav ul {
+.navigation {
     background-color: #3D405B;
     list-style-type: none;
     margin: auto;
@@ -33,17 +33,18 @@ nav ul {
 
 }
 
-nav a {
+nav .navigation {
     padding: .5rem;
     display: block;
 }
 
-nav .active {
+.active {
     background-color: rgba(0, 0, 0, 0.2);
+    display: block;
 
 }
 
-nav ul li a {
+.navigation li a {
     color: white;
 }
 
@@ -75,22 +76,43 @@ span {
 .card {
     border-radius: 8px;
     margin: 2rem 2vw;
-    overflow: hidden;
-    box-shadow: 1.5px 1.5px 1.5px 1.5px#3D405B;
+    box-shadow: 1.5px 1.5px 1.5px 1.5px #7a7d94;
     text-align: center;
+    overflow: hidden;
 
 }
 
+.card1 {
+    border-radius: 8px;
+    margin: 2rem 2vw;
+    box-shadow: 1.5px 1.5px 1.5px 1.5px #7a7d94;
+    text-align: left;
+    overflow: hidden;
+    margin-left: 2rem;
+}
+
+
+
 h2 {
-    color: white;
+
     padding: .75rem 0;
     border-radius: 10px;
     display: block;
     text-align: center;
-    background-color: #3D405B;
+    background-color: #7a7d94;
 
 }
 
 footer {
     text-align: center;
+}
+
+
+#mode {
+    position: left;
+    top: 1rem;
+    right: 1rem;
+    font-size: 3rem;
+    cursor: pointer;
+    font-size: 2rem;
 }
