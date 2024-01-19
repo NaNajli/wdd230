@@ -31,17 +31,18 @@ header {
     text-align: center;
     font-size: 1.5rem;
 
+
 }
 
 nav .navigation {
     padding: .5rem;
     display: block;
+
 }
 
 .active {
     background-color: rgba(0, 0, 0, 0.2);
     display: block;
-
 }
 
 .navigation li a {
@@ -112,4 +113,8 @@ footer {
 a {
     color: black;
 
+}
+
+.navigation li a {
+    text-decoration: none;
 }
