@@ -1,0 +1,34 @@
+@media(min-width:640px) {
+    nav {
+        display: flex;
+        justify-content: space-between;
+        justify-content: space-around;
+
+
+    }
+
+    #menu::before {
+        content: "☰";
+    }
+
+    #menu.open::before {
+        content: "X";
+    }
+
+    .social {
+        align-self: center;
+    }
+
+    #hero-msg {
+        margin-top: 100px;
+    }
+
+
+}
+
+@media (min-width: 37.5em) {
+    #menu {
+        display: none;
+
+    }
+}
