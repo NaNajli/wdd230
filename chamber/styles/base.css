@@ -4,9 +4,22 @@
     box-sizing: border-box;
 }
 
+h3 {
+    margin: 1rem;
+    text-align: center;
+}
+
+section {
+    text-align: center;
+}
+
 body {
     max-width: 1900px;
     margin: 5%;
+}
+
+main {
+    flex-direction: row;
 }
 
 
@@ -67,6 +80,7 @@ li a {
     padding: 50px 50px;
     display: flex;
     justify-content: flex-end;
+
 }
 
 footer p {
@@ -74,7 +88,7 @@ footer p {
     font-family: "Light 300 Italic";
     background-color: #005E66;
     text-align: left;
-    color: #EDF6F9;
+    color: white;
     margin-left: 1%;
     padding-bottom: 2%;
 
@@ -86,6 +100,11 @@ footer {
 
 #hero-img {
     width: 100%;
+}
+
+main section img {
+    max-width: 50%;
+    height: auto;
 }
 
 #hero {
@@ -112,6 +131,7 @@ footer {
 h2 {
     text-align: center;
     margin: 10%;
+
 }
 
 

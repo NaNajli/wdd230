@@ -24,6 +24,22 @@
         margin-top: 50px;
     }
 
+    main section {
+        display: flex;
+        justify-content: space-between;
+
+
+    }
+
+    main p {
+        text-align: center;
+        margin: 1%;
+    }
+
+
+    main img {
+        margin: 10%;
+    }
 
 
 }
