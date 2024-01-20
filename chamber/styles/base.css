@@ -5,7 +5,7 @@
 }
 
 body {
-    max-width: 1600px;
+    max-width: 1900px;
     margin: 5%;
 }
 
@@ -48,20 +48,18 @@ h1 {
     text-align: center;
 }
 
-.home a {
+
+
+/*li a {
     font-family: 'Roboto', sans-serif;
     color: #005E66;
     text-decoration: none;
     padding: .5rem;
     box-shadow: 1px 1px;
     background-color: #EDF6F9;
-    max-width: 1900px;
     text-align: center;
-    font-size: 1.5rem;
 
-
-}
-
+}*/
 .social {
     background-color: #005E66;
     padding: 50px 50px;
@@ -107,10 +105,27 @@ footer {
     grid-row: 1/4;
     margin-top: 10px;
 
-
 }
 
 h2 {
     text-align: center;
     margin: 10%;
+}
+
+
+nav .navigation {
+    padding: .5rem;
+    display: block;
+    max-width: 1900px;
+
+}
+
+.navigation {
+
+    list-style-type: none;
+    margin: auto;
+    max-width: 1900px;
+    text-align: center;
+    font-size: 1.5rem;
+
 }

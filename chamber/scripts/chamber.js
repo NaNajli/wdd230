@@ -2,7 +2,7 @@ let oLastModif = "Last Modified :" + document.lastModified;
 document.getElementById("lastModified").innerHTML = oLastModif;
 
 const hamButton = document.querySelector('#menu');
-const navigation = document.querySelector('.home');
+const navigation = document.querySelector('.navigation');
 
 hamButton.addEventListener('click', () => {
     navigation.classList.toggle('open');
