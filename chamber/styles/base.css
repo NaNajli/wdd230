@@ -50,16 +50,18 @@ h1 {
 
 
 
-/*li a {
+li a {
     font-family: 'Roboto', sans-serif;
     color: #005E66;
     text-decoration: none;
-    padding: .5rem;
+    padding: .3rem;
     box-shadow: 1px 1px;
     background-color: #EDF6F9;
     text-align: center;
 
-}*/
+
+}
+
 .social {
     background-color: #005E66;
     padding: 50px 50px;
@@ -103,8 +105,8 @@ footer {
 #hero-msg {
     grid-column: 2/3;
     grid-row: 1/4;
-    margin-top: 10px;
-
+    margin-top: 1px;
+    padding-top: 1px;
 }
 
 h2 {
@@ -128,4 +130,34 @@ nav .navigation {
     text-align: center;
     font-size: 1.5rem;
 
+}
+
+.navigation li {
+    display: none;
+}
+
+
+.open li {
+    display: block;
+    width: 100%;
+
+}
+
+.open li a {
+    display: block;
+
+}
+
+#menu {
+    font-size: 1rem;
+    border: 1px solid rgba(0, 0, 0, .3);
+    padding: 3px 7px 6px;
+}
+
+#menu::before {
+    content: "☰";
+}
+
+#menu.open::before {
+    content: "X";
 }

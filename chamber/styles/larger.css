@@ -1,27 +1,29 @@
 @media(min-width:640px) {
-    nav {
+
+
+
+
+    nav .navigation {
+        flex: 1 1 100%;
         display: flex;
-        justify-content: space-between;
-        justify-content: space-around;
-
-
     }
 
-    #menu::before {
-        content: "☰";
-    }
-
-    #menu.open::before {
-        content: "X";
-    }
 
     .social {
         align-self: center;
     }
 
-    #hero-msg {
-        margin-top: 100px;
+    .social a {
+        width: 24px;
+        height: 24px;
+        margin: 1.5%;
+
     }
+
+    #hero-msg {
+        margin-top: 50px;
+    }
+
 
 
 }
@@ -31,4 +33,15 @@
         display: none;
 
     }
+
+    .navigation {
+        flex-direction: row;
+
+    }
+
+    .navigation li {
+        display: block;
+        flex: 1 1 100%;
+    }
+
 }
