@@ -4,22 +4,10 @@
     box-sizing: border-box;
 }
 
-h3 {
-    margin: 1rem;
-    text-align: center;
-}
-
-section {
-    text-align: center;
-}
 
 body {
     max-width: 1900px;
     margin: 5%;
-}
-
-main {
-    flex-direction: row;
 }
 
 
@@ -102,10 +90,7 @@ footer {
     width: 100%;
 }
 
-main section img {
-    max-width: 50%;
-    height: auto;
-}
+
 
 #hero {
     display: grid;
@@ -180,4 +165,31 @@ nav .navigation {
 
 #menu.open::before {
     content: "X";
+}
+
+main section img {
+    max-width: 50%;
+    height: auto;
+}
+
+section {
+
+    text-align: center;
+}
+
+h3 {
+    margin: 1rem;
+    text-align: center;
+}
+
+h4 {
+    text-align: left;
+}
+
+main p {
+    text-align: justify;
+}
+
+.pwheather p {
+    text-align: center;
 }

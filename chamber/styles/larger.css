@@ -1,13 +1,9 @@
 @media(min-width:640px) {
 
-
-
-
     nav .navigation {
         flex: 1 1 100%;
         display: flex;
     }
-
 
     .social {
         align-self: center;
@@ -24,40 +20,34 @@
         margin-top: 50px;
     }
 
-    main section {
-        display: flex;
-        justify-content: space-between;
-
-
-    }
-
     main p {
         text-align: center;
         margin: 1%;
     }
 
-
     main img {
         margin: 10%;
     }
 
-
-}
-
-@media (min-width: 37.5em) {
-    #menu {
-        display: none;
-
+    main {
+        display: flex;
     }
 
-    .navigation {
-        flex-direction: row;
+
+    @media (min-width: 37.5em) {
+        #menu {
+            display: none;
+
+        }
+
+        .navigation {
+            flex-direction: row;
+
+        }
+
+        .navigation li {
+            display: block;
+            flex: 1 1 100%;
+        }
 
     }
-
-    .navigation li {
-        display: block;
-        flex: 1 1 100%;
-    }
-
-}
