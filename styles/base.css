@@ -9,7 +9,6 @@
     --primari-color: #3D405B;
     --secondary-color: #81B29A;
     --accent1-color: #F5D6A3;
-
     font-family: 'Assistant', sans-serif;
 
 }
@@ -19,8 +18,6 @@ header {
     padding: 10px;
     font-size: 2rem;
     text-align: left;
-
-
 }
 
 .navigation {
@@ -30,14 +27,11 @@ header {
     max-width: 1900px;
     text-align: center;
     font-size: 1.5rem;
-
-
 }
 
 nav .navigation {
     padding: .5rem;
     display: block;
-
 }
 
 .active {
