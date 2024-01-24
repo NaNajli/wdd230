@@ -43,6 +43,7 @@ function displayList(item) {
         list.removeChild(li);
         deleteChapter(li.textContent);
         input.focus();
+
     });
 }
 function setChapterList() {

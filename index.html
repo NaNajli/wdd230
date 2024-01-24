@@ -29,8 +29,8 @@
 <body>
     <div id="mode">🕶️</div>
     <header>
-        <img src="images/mypicture.jpg" alt="Nadia Rodriguez Profile" width="150" height="206"><span>Rodriguez
-            Nadia</span>
+        <img src="images/mypicture.webp" alt="Nadia Rodriguez Profile" width="150" height="206"><span>
+            Rodriguez Nadia </span>
     </header>
 
     <nav>
@@ -43,7 +43,15 @@
         </ul>
     </nav>
     <main>
+        <div class="hero">
+            <picture>
+                <source srcset="images/hero-small.webp" media="(max-width: 400px)">
+                <source srcset="images/hero-medium.webp" media="(max-width: 1000px)">
+                <img src="images/hero-large.webp" alt="Temple " width="960" height="384">
+            </picture>
+            <span>Saskatchewan Temple</span>
 
+        </div>
         <h1>WDD 230: Web Frontend Development </h1>
         <div class="parent">
             <section class="card">
@@ -74,6 +82,10 @@
         </div>
 
     </main>
+    <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d107776.13878684044!2d-63.321622527460015!3d-32.41904191626433!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95cc42fb51306dc1%3A0xbfb3fffbd425c6b1!2zVmlsbGEgTWFyw61hLCBDw7NyZG9iYQ!5e0!3m2!1ses-419!2sar!4v1706131242459!5m2!1ses-419!2sar"
+        width="960" height="384" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
     <footer>
         <p>© 2024 -Nadia Rodriguez-Argentina </p>
         <p id="lastModified"> Last modificacion: </p>
