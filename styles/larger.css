@@ -6,9 +6,9 @@
     }
 
     header {
-        display: block;
         text-align: center;
         font-size: 3rem;
+        font-family: 'Bad Script';
 
     }
 
@@ -25,6 +25,9 @@
 
         font-size: 2rem;
     }
+
+
+
 
 
 }
@@ -57,7 +60,6 @@
 .open li a {
     display: block;
 }
-
 
 
 @media (min-width: 37.5em) {

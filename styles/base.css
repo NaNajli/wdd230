@@ -16,15 +16,13 @@
 header {
     background-color: #81B29A;
     padding: 10px;
-    font-size: 2rem;
-    text-align: left;
 }
 
 .navigation {
     background-color: #3D405B;
     list-style-type: none;
     margin: auto;
-    max-width: 1900px;
+    max-width: 1600px;
     text-align: center;
     font-size: 1.5rem;
 }
@@ -68,19 +66,20 @@ h1 {
 
 }
 
-span {
-    font-family: 'Bad Script';
-
-}
-
-
-
 .card {
     border-radius: 8px;
     margin: 2rem 2vw;
     box-shadow: 1.5px 1.5px 1.5px 1.5px #7a7d94;
     text-align: center;
     overflow: hidden;
+}
+
+.card1 {
+    text-align: left;
+    border-radius: 8px;
+    margin: 2rem 2vw;
+    overflow: hidden;
+    box-shadow: 1.5px 1.5px 1.5px 1.5px #7a7d94;
 }
 
 h2 {
@@ -99,13 +98,14 @@ footer {
 
 
 #mode {
+
     position: relative;
-    top: 1rem;
-    right: 1rem;
+    padding-left: 10px;
     font-size: 3rem;
     cursor: pointer;
     font-size: 2rem;
-    margin-left: 1rem;
+    background-color: #81B29A;
+
 
 }
 
@@ -118,8 +118,6 @@ a {
     text-decoration: none;
 }
 
-
-
 .hero picture {
     width: 100%;
 
@@ -128,8 +126,6 @@ a {
 .hero img {
     width: 100%;
     height: auto;
-
-
 }
 
 .hero span {
@@ -140,4 +136,8 @@ a {
     text-align: center;
     margin-top: 10%;
     font-size: 1.5rem;
+}
+
+iframe {
+    align-self: center;
 }
