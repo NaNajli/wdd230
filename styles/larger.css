@@ -24,11 +24,8 @@
     .hero span {
 
         font-size: 2rem;
+        background-color: rgb(255, 255, 255, 0.10);
     }
-
-
-
-
 
 }
 
@@ -60,7 +57,6 @@
 .open li a {
     display: block;
 }
-
 
 @media (min-width: 37.5em) {
     h1 {

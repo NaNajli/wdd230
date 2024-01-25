@@ -18,6 +18,8 @@ button.addEventListener('click', function () {
     input.value = '';
 
 });
+
+
 let chaptersArray = getChapterList() || [];
 chaptersArray.forEach(chapter => {
     displayList(chapter);
@@ -60,3 +62,4 @@ function deleteChapter(chapter) {
     setChapterList();
 
 }
+

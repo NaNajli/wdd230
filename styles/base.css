@@ -16,6 +16,7 @@
 header {
     background-color: #81B29A;
     padding: 10px;
+    font-size: 1.5rem;
 }
 
 .navigation {
@@ -98,15 +99,11 @@ footer {
 
 
 #mode {
-
     position: relative;
-    padding-left: 10px;
     font-size: 3rem;
     cursor: pointer;
     font-size: 2rem;
     background-color: #81B29A;
-
-
 }
 
 a {
@@ -132,12 +129,16 @@ a {
     position: absolute;
     right: 30%;
     box-shadow: .5px .5px 1.5px#3D405B;
-    padding: 1.5rem;
+    padding: .5rem;
     text-align: center;
     margin-top: 10%;
     font-size: 1.5rem;
+    background-color: rgba(232, 214, 193, 0.5);
+
 }
 
+
 iframe {
-    align-self: center;
+    width: 100vw;
+
 }
