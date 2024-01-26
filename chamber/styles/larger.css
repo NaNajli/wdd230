@@ -5,14 +5,16 @@
         display: flex;
     }
 
+
     .social {
         align-self: center;
+
     }
 
     .social a {
-        width: 24px;
-        height: 24px;
-        margin: 1.5%;
+        margin: 1%;
+        width: "2.5rem";
+        height: "2.rem";
 
     }
 
@@ -31,24 +33,32 @@
 
     main {
         display: flex;
-    }
-
-}
-
-@media (min-width: 37.5em) {
-    #menu {
-        display: none;
 
     }
 
-    .navigation {
-        flex-direction: row;
-
+    .discover {
+        grid-template-columns: 1fr 2fr;
     }
 
-    .navigation li {
-        display: block;
-        flex: 1 1 100%;
-    }
 
+
+    @media (min-width: 37.5em) {
+        #menu {
+            display: none;
+
+        }
+
+        .navigation {
+            flex-direction: row;
+
+        }
+
+        .navigation li {
+            display: block;
+            flex: 1 1 100%;
+        }
+
+
+
+    }
 }

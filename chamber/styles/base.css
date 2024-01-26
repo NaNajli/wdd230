@@ -6,7 +6,7 @@
 
 
 body {
-    max-width: 1900px;
+    max-width: 1600px;
     margin: 5%;
 }
 
@@ -63,12 +63,21 @@ li a {
 
 }
 
+
 .social {
     background-color: #005E66;
     padding: 50px 50px;
     display: flex;
     justify-content: flex-end;
 
+
+}
+
+h5 {
+    color: white;
+    padding-bottom: 2%;
+    font-family: "Light 300 Italic";
+    font-size: 1.2rem;
 }
 
 footer p {
@@ -79,6 +88,7 @@ footer p {
     color: white;
     margin-left: 1%;
     padding-bottom: 2%;
+
 
 }
 
@@ -123,7 +133,7 @@ h2 {
 nav .navigation {
     padding: .5rem;
     display: block;
-    max-width: 1900px;
+    max-width: 1600px;
 
 }
 
@@ -131,7 +141,7 @@ nav .navigation {
 
     list-style-type: none;
     margin: auto;
-    max-width: 1900px;
+    max-width: 1600px;
     text-align: center;
     font-size: 1.5rem;
 
@@ -193,4 +203,41 @@ main p {
 
 .pwheather p {
     text-align: center;
+}
+
+.demographics {
+    background-color: blanchedalmond;
+    padding: 10%;
+    margin-bottom: 10%;
+}
+
+.discover {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1rem;
+}
+
+.imagesvm h2,
+h3,
+h4 {
+    text-align: center;
+}
+
+.imagesvm p {
+    text-align: justify;
+}
+
+.imagesvm {
+    animation: fade 15s;
+
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
