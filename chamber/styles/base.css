@@ -232,6 +232,12 @@ h4 {
 
 }
 
+.social img {
+    margin: 1%;
+    width: 16px;
+    height: 16px;
+}
+
 @keyframes fade {
     0% {
         opacity: 0;

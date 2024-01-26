@@ -11,12 +11,7 @@
 
     }
 
-    .social a {
-        margin: 1%;
-        width: "2.5rem";
-        height: "2.rem";
 
-    }
 
     #hero-msg {
         margin-top: 50px;
@@ -38,6 +33,12 @@
 
     .discover {
         grid-template-columns: 1fr 2fr;
+    }
+
+    .social img {
+        margin: 1%;
+        width: 40px;
+        height: 40px;
     }
 
 
