@@ -120,7 +120,7 @@ footer {
 
 #hero-msg {
     grid-column: 2/3;
-    grid-row: 1/4;
+    grid-row: 3/4;
     margin-top: 1px;
     padding-top: 1px;
 }
@@ -166,10 +166,11 @@ nav .navigation {
 }
 
 #menu {
-    position: absolute;
+    position: relative;
     font-size: 1rem;
     border: 1px solid rgba(0, 0, 0, .3);
     padding: 3px 7px 6px;
+
 }
 
 #menu::before {
