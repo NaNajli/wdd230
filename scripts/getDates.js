@@ -1,6 +1,10 @@
 let oLastModif = "Last Modified :" + document.lastModified;
 document.getElementById("lastModified").innerHTML = oLastModif;
 
+let nyear = new Date();
+document.getElementById("year").innerHTML = nyear.getFullYear();
+
+
 const hamButton = document.querySelector('#menu');
 const navigation = document.querySelector('.navigation');
 
