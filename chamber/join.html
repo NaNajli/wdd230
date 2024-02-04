@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VMC Chamber of Commerce</title>
+
+    <meta property="og:title" content="The Chamber of Commerce">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://github.com/NaNajli/wdd230/blob/main/chamber/images/fabien-maurin-.jpg">
+    <meta property="og:url" content="https://nanajli.github.io/wdd230/chamber/index.html">
+
+    <link rel="stylesheet" href="styles/normalize.css">
+
+    <meta name="description" content=" WDD 230 - Web Frontend Development ,Nadia Rodriguez ,The Chamber of Commerce ">
+    <meta name="author" content="Nadia Rodriguez">
+
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="icon" href="images/favicon.ico">
+</head>
+
+<body>
+    <!-- Photo by <a href="https://unsplash.com/@fabienmaurin?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Fabien Maurin</a> on <a href="https://unsplash.com/photos/a-group-of-people-looking-at-a-map-FsBfA1Gwsgo?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+-->
+    <header>
+        <input class="location" type="button" value="Location"><a class=' location1'
+            href="https://maps.app.goo.gl/FaPHUcMd7MBCirUF9"></a>
+        <input class="setting" type="button" value="Setting"><a class=' setting1' href=""></a>
+    </header>
+    <h1 class="home-title">VMC Chamber of Commerce </h1>
+
+    <div id="hero">
+        <div id="hero-box">
+            <img id="hero-img" src="images/fabien-maurin.webp" alt="Family watching map">
+        </div>
+        <section id="hero-msg">
+            <nav>
+                <input type="button" id="menu" value="☰">
+                <ul class="navigation">
+                    <li><a href="https://nanajli.github.io/wdd230/chamber/index.html">Home</a></li>
+                    <li><a href="https://nanajli.github.io/wdd230/chamber/discover.html">Discover</a></li>
+                    <li><a href="">Directory</a></li>
+                </ul>
+            </nav>
+        </section>
+    </div>
+    <h2>The VMC chamber of commerce has the purpose of providing the best options for tourists, our mission is
+        contribute culture and promote tourism in the city</h2>
+    <main class="mainform">
+        <div class="container1">
+            <div class="gold">
+                <h4>Membership Gold </h4>
+                <img src="images/gold.webp" alt=" Gold">
+            </div>
+            <div class="formdiv">
+                <form method="get" action="thankyou.html">
+                    <h4 class="formh4">Membership application form</h4>
+                    <label>First Name: *<input id="name" name="name" type="text" required></label>
+                    <label>Last Name: *<input id="lastname" name="lastname" type="text" required></label>
+                    <label> Title or Position: *<input id="position" type="text" name="position" pattern="[A-Za-z]{6,}"
+                            title="Only accept alpha characters, hyphens, minimum of seven characters ">
+                    </label>
+                    <label> Email:* <input type="email" name="email" id="email" placeholder="myemail...@gmail.com"
+                            title="Please enter a valid email address" required></label>
+                    <label> Mobile Phone Number:* <input type="number" name="phone" id="phone" required></label>
+                    <label> Business/organization's name:* <input type="text" name="org" id="org" required></label>
+                    <fieldset>
+                        <legend> Select a membership level</legend>
+                        <label><input name="member" type="radio"> NP Membership</label>
+                        <label><input name="member" type="radio"> Bronze Membership</label>
+                        <label><input name="member" type="radio"> Silver Membership</label>
+                        <label><input name="member" type="radio">Gold Membership</label>
+                    </fieldset>
+                    <p class="descrip"><label>Description:</label></p>
+                    <label><textarea name="text" id="text"></textarea></label>
+                    <label><input type="hidden" name="hidd" id="hidd"></label>
+                    <input type="submit" value="Submit" class="submit">
+                </form>
+            </div>
+        </div>
+        <div class="container2">
+            <div class="cinema">
+                <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, ipsa esse. Provident modi
+                    repellendus libero ipsam sapiente quas architecto harum error itaque repudiandae.</h4>
+                <img src="images/theather.webp" alt="Cinema">
+            </div>
+            <div class="cinema">
+                <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, ipsa esse. Provident modi
+                    repellendus libero ipsam sapiente quas architecto harum error itaque repudiandae.</h4>
+                <img src="images/theather.webp" alt="Cinema">
+            </div>
+            <div class="cinema">
+                <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, ipsa esse. Provident modi
+                    repellendus libero ipsam sapiente quas architecto harum error itaque repudiandae.</h4>
+                <img src="images/theather.webp" alt="Cinema">
+            </div>
+        </div>
+        <div class="shows">
+            <h4>Enjoy exclusive discounts for shows</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae beatae praesentium esse nam cumque ratione
+                dicta.</p>
+            <picture>
+                <source srcset="images/shows-small.webp" media="(max-width: 500px)">
+                <img src="images/shows-large.webp.webp" alt="Show" width="1153" height="375">
+            </picture>
+        </div>
+    </main>
+    <footer>
+        <div class="social">
+            <a href="https://facebook.com">
+                <img src="images/facebook.png" alt="fb icon">
+            </a>
+            <a href="https://twitter.com">
+                <img src="images/twitter.png" alt="twitter icon">
+            </a>
+            <a href="https://instagram.com">
+                <img src="images/instagram.png" alt="instagram icon">
+            </a>
+        </div>
+        <h5>📞105 - Customer Services</h5>
+        <p>Contact information : vmcchamber@gmail.com </p>
+        <p>© 2024 -Nadia Rodriguez-Argentina - Project for WDD 230</p>
+        <p id="lastModified"> Last modificacion: </p>
+
+    </footer>
+    <script src="scripts/chamber.js"></script>
+</body>
+
+</html>

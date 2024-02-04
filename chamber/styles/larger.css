@@ -49,6 +49,85 @@
         height: 40px;
     }
 
+    /*-----------FORM------------*/
+
+    form {
+        width: 90%;
+    }
+
+    #name,
+    #lastname,
+    #position,
+    #phone,
+    #email,
+    #org {
+        width: 80%;
+        font-size: 1rem;
+        padding: 2%;
+    }
+
+    fieldset {
+        width: 80%;
+
+    }
+
+    .gold {
+        width: 100%;
+
+    }
+
+    .gold img {
+        border-radius: 5rem;
+    }
+
+    .gold h4 {
+        color: white;
+        font-size: 3rem;
+        position: absolute;
+        top: 30%;
+        left: 40%;
+    }
+
+    .mainform {
+        flex-direction: row;
+    }
+
+
+    .container1 {
+        display: grid;
+        grid-template-columns: 2fr 2fr;
+        gap: 5rem;
+    }
+
+    .shows h4 {
+        color: #EDF6F9;
+        font-size: 2rem;
+        position: absolute;
+        top: 40%;
+        left: 60%;
+
+    }
+
+    .shows p {
+        color: #EDF6F9;
+        font-size: 1rem;
+        position: absolute;
+        top: 60%;
+        left: 60%;
+
+    }
+
+    .cinema h4 {
+        font-size: 1rem;
+        margin-top: 2%;
+    }
+
+    .record p {
+
+        font-size: 1rem;
+        text-align: center;
+
+    }
 
 
     @media (min-width: 37.5em) {
