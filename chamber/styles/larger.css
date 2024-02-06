@@ -163,6 +163,14 @@
     }
 
 
+    .shows h4 {
+        color: #EDF6F9;
+        font-size: 2rem;
+        position: absolute;
+        margin: 2%;
+    }
+
+
 
     @media (min-width: 37.5em) {
         #menu {

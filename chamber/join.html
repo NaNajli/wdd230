@@ -64,7 +64,7 @@
                     </label>
                     <label> Email:* <input type="email" name="email" id="email" placeholder="myemail...@gmail.com"
                             title="Please enter a valid email address" required></label>
-                    <label> Mobile Phone Number:* <input type="telephone" name="phone" id="phone" required></label>
+                    <label> Mobile Phone Number:* <input type="tel" name="phone" id="phone" required></label>
                     <label> Business/organization's name:* <input type="text" name="org" id="org" required></label>
                     <fieldset>
                         <legend> Select a membership level</legend>
@@ -75,8 +75,9 @@
                     </fieldset>
                     <p class="descrip"><label>Description:</label></p>
                     <label><textarea name="text" id="text"></textarea></label>
-                    <label type="hidden" name="hidde" id="hidd"></label>
-                    <input type="submit" value="Submit" class="submit">
+                    <!--<p><input type="hidden" name="hidde" id="hidd"></p>-->
+                    <label type="hidden" name="hidde" id="hidd"><label>
+                            <input type="submit" value="Submit" class="submit">
                 </form>
             </div>
         </div>
