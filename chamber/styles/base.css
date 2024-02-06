@@ -368,6 +368,7 @@ form {
     color: #EDF6F9;
     font-size: .5rem;
     position: absolute;
+    margin: 2%;
 
 
 }
@@ -378,29 +379,8 @@ form {
     top: 30%;
     left: 30%;
     background-color: #005E66;
+    margin: 12%;
 
-}
-
-
-.cinema {
-    position: relative;
-    display: inline-block;
-    border-style: groove;
-    width: 30%;
-    height: auto;
-    max-height: 400px;
-
-}
-
-.cinema img {
-    width: 80%;
-    height: auto;
-    margin: 20%;
-    padding: 20%;
-}
-
-.cinema h4 {
-    font-size: .5rem;
 }
 
 .record p {
@@ -408,4 +388,30 @@ form {
     font-size: 3rem;
     text-align: center;
 
+}
+
+#hidd {
+    color: black;
+}
+
+.cinema,
+.cinema1,
+.cinema2 {
+    border-style: groove;
+    width: 90%;
+    height: auto;
+    margin-left: 2%;
+}
+
+.cinema img,
+.cinema1 img,
+.cinema2 img {
+    width: 90%;
+    height: auto;
+}
+
+.cinema h4,
+.cinema1 h4,
+.cinema2 h4 {
+    font-size: .5rem;
 }

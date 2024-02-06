@@ -11,4 +11,10 @@ hamButton.addEventListener('click', () => {
 
 
 
+let loadTimes = document.querySelector("#hidd").textContent = Date.now();
+
+
+
+
+
 
