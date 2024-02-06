@@ -1,0 +1,18 @@
+{
+    "familyName": "Brown",
+    "dateFamilyMoved": "21st May 2022",
+    "numberPeople": 5,
+    "visited": true,
+    "members": [
+        {
+            "name": "Elizabeth",
+            "gender": "female",
+            "birthdate": "September second"
+        },
+        {
+            "name": "David",
+            "gender": "male",
+            "birthdate": "October 23"
+        }
+    ]
+}
