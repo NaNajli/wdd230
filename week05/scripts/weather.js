@@ -9,7 +9,7 @@ async function apiFetch(url) {
     try {
         if (response.ok) {
             const data = await response.json();
-            console.table(data);
+            // console.table(data);
             displayResults(data);
         } else {
             throw Error(await response.text());
@@ -23,7 +23,7 @@ apiFetch(url);
 
 function displayResults(data) {
 
-    currentTemp.innerHTML = `${data.main.temp}&deg;C`;
+    currentTemp.innerHTML = `${data.main.temp}&deg;F`;
     const iconsrc = `https://openweathermap.org/img/wn/10d@2x.png`;
     let desc = data.weather[0].description;
     weatherIcon.setAttribute('src', iconsrc);

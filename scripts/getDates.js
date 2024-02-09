@@ -1,3 +1,6 @@
+
+//--------- LAS MODIFICATION 
+
 let oLastModif = "Last Modified :" + document.lastModified;
 document.getElementById("lastModified").innerHTML = oLastModif;
 
@@ -13,21 +16,8 @@ hamButton.addEventListener('click', () => {
     hamButton.classList.toggle('open');
 });
 
+//-------NUMBER OF VISIT------
 
-const modeButton = document.querySelector("#mode");
-const main = document.querySelector("main");
-
-modeButton.addEventListener("click", () => {
-    if (modeButton.textContent.includes("🕶️")) {
-        main.style.background = "#F5D6A3";
-        main.style.color = "#3D405B";
-        modeButton.textContent = "🔆";
-    } else {
-        main.style.background = "#3D405B";
-        main.style.color = "#F5D6A3";
-        modeButton.textContent = "🕶️";
-    }
-});
 
 const visitsDisplay = document.querySelector(".visits");
 let numVisits = Number(window.localStorage.getItem("numVisits-ls")) || 0;
@@ -38,3 +28,6 @@ if (numVisits !== 0) {
 }
 numVisits++;
 localStorage.setItem("numVisits-ls", numVisits);
+
+
+

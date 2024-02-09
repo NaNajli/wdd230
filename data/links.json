@@ -1,0 +1,97 @@
+{
+    "weeks": [
+        {
+            "week": "Week 1",
+            "links": [
+                {
+                    "url": "week01/holygrail.html",
+                    "title": "CSS Layout Review"
+                },
+                {
+                    "url": "week01/media-query.html",
+                    "title": "Media Query"
+                },
+                {
+                    "url": "https://codepen.io/Nadia-Rodriguez/pen/YzgWqme",
+                    "title": "J Pen"
+                }
+            ]
+        },
+        {
+            "week": "Week 2",
+            "links": [
+                {
+                    "url": "week02/week02/design.html",
+                    "title": "Desing"
+                },
+                {
+                    "url": "Hamburger Menu",
+                    "title": "https://codepen.io/Nadia-Rodriguez/pen/MWxpaBR"
+                }
+            ]
+        },
+        {
+            "week": "Week 3",
+            "links": [
+                {
+                    "url": "week03/responsive-images.html",
+                    "title": "Responsive Images"
+                },
+                {
+                    "url": "week03/lazyload.html",
+                    "title": "Lazy Loading"
+                },
+                {
+                    "url": "week03/storage.html",
+                    "title": "Web Storage API"
+                },
+                {
+                    "url": "https://nanajli.github.io/wdd230/week03/images/landscape.webp",
+                    "title": "WebP"
+                }
+            ]
+        },
+        {
+            "week": "Week 4",
+            "links": [
+                {
+                    "url": "https://codepen.io/Nadia-Rodriguez/pen/wvOyzGw",
+                    "title": "CSS Pseudo-Classes"
+                },
+                {
+                    "url": "week04/combinators.html",
+                    "title": "Combinators"
+                },
+                {
+                    "url": "week04/tablebuild.html",
+                    "title": "CSS Tables"
+                },
+                {
+                    "url": "form-start/index.html",
+                    "title": "CSS Form"
+                }
+            ]
+        },
+        {
+            "week": "Week 5",
+            "links": [
+                {
+                    "url": "https://codepen.io/Nadia-Rodriguez/pen/wvOxzbN",
+                    "title": "CSS Pseudo-elements"
+                },
+                {
+                    "url": "https://nanajli.github.io/wdd230/week05/new-ward-members.json",
+                    "title": "JSON"
+                },
+                {
+                    "url": "week05/prophets.html",
+                    "title": "The Fetch API"
+                },
+                {
+                    "url": "week05/weather.html",
+                    "title": "Consuming a Weather API"
+                }
+            ]
+        }
+    ]
+}
