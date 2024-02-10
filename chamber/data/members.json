@@ -1,0 +1,60 @@
+{
+    "members": [
+        {
+            "name": "Whitewater Rafting Vacations",
+            "addresses": "Road 456 - Rio Colorado",
+            "phone": "+5493547895647",
+            "website": "https://nanajli.github.io/wdd130/wwr/index.html",
+            "imageurl": "https://github.com/NaNajli/wdd230/blob/main/chamber/images/logomember1.webp",
+            "level": "Bronze"
+        },
+        {
+            "name": "Cordoba Turismo",
+            "addresses": "Av. Cárcano S/N, Complejo Ferial Córdoba",
+            "phone": "0351-4348260/64",
+            "website": "https://www.cordobaturismo.gov.ar/localidad/villa-maria/",
+            "imageurl": "https://github.com/NaNajli/wdd230/blob/main/chamber/images/logomember2.webp",
+            "level": "Silver "
+        },
+        {
+            "name": "Museum Ramosgenerales",
+            "addresses": "José Ingenieros 160 -5900 VILLA MARIA",
+            "phone": "0353-4534828",
+            "website": "https://www.instagram.com/museoramosgenerales.arg/",
+            "imageurl": "https://github.com/NaNajli/wdd230/blob/main/chamber/images/logomember3.webp",
+            "level": "Bronze"
+        },
+        {
+            "name": "Theater Verdi",
+            "addresses": "Av. Hipólito Yrigoyen 3295900 Villa María - Córdoba - Argentina",
+            "phone": "(0353) 4610083",
+            "website": "https://www.teatroverdivm.com.ar/",
+            "imageurl": "https://github.com/NaNajli/wdd230/blob/main/chamber/images/logomember4.webp",
+            "level": "Gold "
+        },
+        {
+            "name": "Isolatech",
+            "addresses": "San Andres 6758",
+            "phone": "(345)323667888",
+            "website": "https://www.canva.com/design/DAF8ax9rBvo/m3OZGgWyPM6Y6Jizm0wV3A/edit",
+            "imageurl": "https://github.com/NaNajli/wdd230/blob/main/chamber/images/logomember5.webp",
+            "level": "Gold"
+        },
+        {
+            "name": "Idea",
+            "addresses": "road 123 - Rio Gallegos",
+            "phone": "(3546)345679",
+            "website": "https://www.canva.com/es_es/plantillas/?query=logos",
+            "imageurl": "https://github.com/NaNajli/wdd230/blob/main/chamber/images/logomember6.webp",
+            "level": "Silver "
+        },
+        {
+            "name": "Sandra Haros",
+            "addresses": "Piedras 3456",
+            "phone": "(3456)1232456",
+            "website": "https://www.canva.com/es_es/plantillas/?query=logos",
+            "imageurl": "https://github.com/NaNajli/wdd230/blob/main/chamber/images/logomember7.webp",
+            "level": "NP"
+        }
+    ]
+}
