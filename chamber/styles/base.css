@@ -412,3 +412,95 @@ form {
 .cinema2 h4 {
     font-size: .5rem;
 }
+
+
+/*---------- DIRECTORY------------*/
+#grid {
+    background-color: #005E66;
+    border: none;
+    color: white;
+    padding: 0%;
+    text-align: center;
+    display: inline-block;
+    font-size: 2rem;
+    margin: 0%;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    width: 30%;
+}
+
+#grid:hover {
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+#list {
+    background-color: #005E66;
+    border: none;
+    color: white;
+    padding: 0%;
+    text-align: center;
+    display: inline-block;
+    font-size: 2rem;
+    margin: 0%;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    width: 30%;
+}
+
+#list:hover {
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.directory {
+    margin: 0 auto;
+    padding: 0.5rem;
+    max-width: 1000px;
+    background-color: #fff;
+}
+
+.directorymenu {
+
+    padding: 0.5rem;
+    text-align: center;
+}
+
+.directorymenu button {
+    padding: 1rem;
+    font-weight: 700;
+}
+
+
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.grid section>* {
+    margin: 0.1rem;
+
+}
+
+.list section {
+    display: grid;
+    grid-template-columns: 5fr 2fr 2fr;
+    margin: 0;
+    padding: 0.25rem;
+}
+
+.list section img {
+    display: none;
+}
+
+.list section>* {
+    margin: 0 1rem;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+}
