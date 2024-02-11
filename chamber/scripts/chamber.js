@@ -9,14 +9,21 @@ hamButton.addEventListener('click', () => {
     hamButton.classList.toggle('open');
 });
 
+let loadTimes = document.querySelector("#hidd");
+
+loadTimes = Date.now();
 
 
-let loadTimes = document.querySelector("#hidd").textContent = Date.now();
+const url = 'https://github.com/NaNajli/wdd230/chamber/data/members.json';
+const cards = document.querySelector('#cards');
 
-
-
-
-
+async function getMemberstData() {
+    const response = await fetch(url);
+    const data = await response.json();
+    console.table(data.members);
+    //displayProphets(data.members);
+}
+//getMembersData();
 
 
 
