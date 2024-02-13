@@ -172,6 +172,34 @@
 
     /*------------------------DIRECTORY-----------------------------------*/
 
+    main.directory {
+        margin-left: 30%;
+    }
+
+
+
+    .list #cards {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .list a {
+        font-size: .5rem;
+        text-align: center;
+    }
+
+    .list h2 {
+        font-size: 1rem;
+        text-align: center;
+
+    }
+
+    .list p {
+        font-size: 1rem;
+        text-align: center;
+    }
+
+
 
     @media (min-width: 37.5em) {
         #menu {

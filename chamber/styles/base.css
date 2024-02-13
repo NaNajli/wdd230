@@ -434,6 +434,11 @@ form {
     box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
 
+#list:hover {
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+
 
 #list {
     background-color: #005E66;
@@ -450,22 +455,39 @@ form {
     width: 30%;
 }
 
-#list:hover {
-    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+#cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 5fr));
+    margin-top: 10%;
+    margin-bottom: 10%;
+    align-self: center;
+    align-content: center;
+
 }
 
-
-.directory {
-    margin: 0 auto;
-    padding: 0.5rem;
-    max-width: 1000px;
-    background-color: #fff;
-}
-
-.directorymenu {
-
-    padding: 0.5rem;
+a.amemb {
     text-align: center;
+    font-size: .5rem;
+
+}
+
+.memb h2 {
+    text-align: center;
+}
+
+main.directory {
+    max-width: 1000px;
+}
+
+section.memb {
+    margin: 10%;
+    padding: 10%;
+    border-style: dashed;
+    border-radius: 10%;
+}
+
+section.memb:hover {
+    background-color: #abd1d5;
 }
 
 .directorymenu button {
@@ -473,34 +495,55 @@ form {
     font-weight: 700;
 }
 
-
-
-.grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-}
-
-.grid section>* {
-    margin: 0.1rem;
-
-}
-
-.list section {
-    display: grid;
-    grid-template-columns: 5fr 2fr 2fr;
-    margin: 0;
-    padding: 0.25rem;
-}
-
-.list section img {
-    display: none;
-}
-
-.list section>* {
+.list section .memb>* {
     margin: 0 1rem;
 }
 
-.list {
+.directorymenu {
+
+    padding: 0.5rem;
+    text-align: center;
+
+}
+
+.list img {
+    display: none;
+
+}
+
+.list section.memb {
+    border-style: none;
+}
+
+.list section:nth-child(even) {
+    background-color: var(--zebra);
+}
+
+
+.list section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 0%;
+    padding: 0%;
+}
+
+.list #cards {
     display: flex;
     flex-direction: column;
+}
+
+.list a {
+    font-size: .5rem;
+    text-align: center;
+}
+
+.list h2 {
+    font-size: .5rem;
+    text-align: center;
+
+}
+
+.list p {
+    font-size: .5rem;
+    text-align: center;
 }

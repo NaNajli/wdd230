@@ -31,13 +31,16 @@ getMembersData();
 
 const displayMembers = (members) => {
     members.forEach(member => {
-        let card = document.createElement('section');
+        let card = document.createElement('section')
+        card.classList.add('memb');
+
         let company = document.createElement('h2');
         let memblevel = document.createElement('h3');
         let logo = document.createElement('img');
         let web = document.createElement('a');
         let addrees = document.createElement('p');
         let phone = document.createElement('p');
+        web.classList.add('amemb');
 
         company.textContent = `${member.name}`;
         memblevel.textContent = `${member.level}`;
@@ -46,10 +49,13 @@ const displayMembers = (members) => {
         logo.setAttribute('loading', 'lazy');
         logo.setAttribute('width', '100');
         logo.setAttribute('height', '100');
-        web.textContent = (`${member.website}| `);
+        web.textContent = (`${member.website}`);
         web.setAttribute("href", member.website);
+        web.setAttribute("target", "_blank");
         addrees.textContent = `Address: ${member.addresses}`;
         phone.textContent = `Phone numbers: ${member.phone}`;
+        web.setAttribute("title", "WEbsite");
+
 
         card.appendChild(company);
         card.appendChild(logo);
@@ -63,6 +69,7 @@ const displayMembers = (members) => {
 
     });
 }
+
 
 const gridbutton = document.querySelector("#grid");
 const listbutton = document.querySelector("#list");
@@ -79,6 +86,18 @@ function showList() {
     display.classList.add("list");
     display.classList.remove("grid");
 }
+
+//-------------------- JOIN------------------
+//const joinurl = "join.html";
+//const joinbutton = document.querySelector('.join1');
+//joinbutton.addEventListener('click');
+//function joinUs() {
+//    joinbutton.setAttribute('href', joinurl)
+//
+//}
+
+
+
 
 
 
