@@ -26,11 +26,11 @@
 -->
     <header>
         <div>
-            <input class="join" type="button" value="Join"><a class='join1' href="join.html"></a>
+            <button class="join"><a href="join.html">Join</a></button>
         </div>
-        <input class="location" type="button" value="Location"><a class=' location1'
+        <input class="location" type="button" value="🌍"><a class=' location1'
             href="https://maps.app.goo.gl/FaPHUcMd7MBCirUF9"></a>
-        <input class="setting" type="button" value="Setting"><a class=' setting1' href=""></a>
+        <input class="setting" type="button" value="📅"><a class=' setting1' href=""></a>
     </header>
     <h1 class="home-title">VMC Chamber of Commerce </h1>
 
@@ -63,17 +63,26 @@
         <section class="wheather">
             <h3>Weather</h3>
             <div class="pwheather">
-                <p>Cordoba-Argentina</p>
-                <p>27°C- Sunny</p>
+                <p id="city"></p>
+                <p id="description"></p>
+                <p id="temperature"></p>
+                <img id="graphic" src="" alt="">
             </div>
-            <img class="imgwheather" src="images/pexels-megan.webp" alt="pexels-megan">
+            <h3>Forecast</h3>
+            <div class="forecast">
+                <p id="fdescription"></p>
+                <p id="ftemperature"></p>
+                <img id="fgraphic" src="" alt="">
+            </div>
+
+            <!--<img class="imgwheather" src="images/pexels-megan.webp" alt="pexels-megan">-->
 
         </section>
         <section>
             <h3>Spotlights</h3>
             <P> <strong> Andrew Monroe</strong></P>
             <p>“Tourism opens up a world of discovery, offering unique experiences and unforgettable memories.”</p>
-            <input type="button" value="Read More" />
+            <input type="button" value="Read More">
             <p>Brandon West</p>
             <p>“The beauty of tourism lies in its ability to bridge cultures, fostering understanding and appreciation
                 of our diverse world.”</p>
@@ -98,6 +107,7 @@
         <p id="lastModified"> Last modificacion: </p>
     </footer>
     <script src="scripts/chamber.js"></script>
+    <script src="scripts/weather.js"></script>
 </body>
 
 </html>
