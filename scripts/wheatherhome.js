@@ -27,7 +27,7 @@ function displayResults(data) {
     mycity.innerHTML = data.name;
     myDescription.innerHTML = data.weather[0].description;
     myTemperature.innerHTML = `${data.main.temp}&deg;C`;
-    const iconsrc = `https://openweathermap.org/img/wn/10d@2x.png`;
+    const iconsrc = `https://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png`;
     myGraphic.setAttribute("src", iconsrc);
     myGraphic.setAttribute("alt", data.weather[0].description)
 
