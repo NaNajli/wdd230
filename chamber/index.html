@@ -30,7 +30,7 @@
         </div>
         <input class="location" type="button" value="🌍"><a class=' location1'
             href="https://maps.app.goo.gl/FaPHUcMd7MBCirUF9"></a>
-        <input class="setting" type="button" value="📅"><a class=' setting1' href=""></a>
+        <button class="setting" onclick="on()">📅</button>
     </header>
     <h1 class="home-title">VMC Chamber of Commerce </h1>
 
@@ -52,6 +52,10 @@
     <h2>The VMC chamber of commerce has the purpose of providing the best options for tourists, our mission is
         contribute culture and promote tourism in the city</h2>
     <main>
+        <div id="overlay" onclick="off()">
+            <div id="text"></div>
+            <p>Attend the chamber of commerce meet and greet on Wednesday at 7:00 p.m.!!!</p>
+        </div>
         <section>
             <h3>Events</h3>
             <h4>VILLA MARIA FESTIVAL 2024</h4>
@@ -66,17 +70,17 @@
                 <p id="city"></p>
                 <p id="description"></p>
                 <p id="temperature"></p>
-                <img id="graphic" src="" alt="">
+                <img id="graphic" src="https://openweathermap.org/img/wn/10d@2x.png" alt="Weather Icon">
             </div>
             <h3>Forecast</h3>
             <div class="forecast">
+
+                <p id="day"></p>
                 <p id="fdescription"></p>
                 <p id="ftemperature"></p>
-                <img id="fgraphic" src="" alt="">
+                <img id="fgraphic" src="https://openweathermap.org/img/wn/01d@2x.png" alt="Weather Icon">
             </div>
-
             <!--<img class="imgwheather" src="images/pexels-megan.webp" alt="pexels-megan">-->
-
         </section>
         <section>
             <h3>Spotlights</h3>
@@ -106,8 +110,9 @@
         <p>© 2024 -Nadia Rodriguez-Argentina - Project for WDD 230</p>
         <p id="lastModified"> Last modificacion: </p>
     </footer>
-    <script src="scripts/chamber.js"></script>
     <script src="scripts/weather.js"></script>
+    <script src="scripts/forecast.js"></script>
+    <script src="scripts/chamber.js"></script>
 </body>
 
 </html>

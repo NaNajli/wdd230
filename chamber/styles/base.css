@@ -13,11 +13,16 @@ body {
 
 .join {
     display: block;
-    color: #005E66;
     font-size: 1.5rem;
     box-shadow: 1.5px 1.5px 1.5px 1.5px #005E66;
     padding: .5rem;
     margin: .6rem;
+    text-align: left;
+    width: 100%;
+}
+
+.join a {
+    color: #005E66
 }
 
 header {
@@ -229,9 +234,8 @@ h4 {
     text-align: justify;
 }
 
-.imagesvm {
-    animation: fade 15s;
-
+.imagesvm img:hover {
+    box-shadow: 0 0 50px #0b3435;
 }
 
 .social img {
@@ -495,9 +499,7 @@ section.memb:hover {
     font-weight: 700;
 }
 
-.list section .memb>* {
-    margin: 0 1rem;
-}
+
 
 .directorymenu {
 
@@ -546,4 +548,24 @@ section.memb:hover {
 .list p {
     font-size: .5rem;
     text-align: center;
+}
+
+#overlay {
+    position: fixed;
+    font-size: x-large;
+    background-color: rgba(1, 0, 0, 0.5);
+    color: #abd1d5;
+    width: 100%;
+    height: 30%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    z-index: 2;
+    cursor: pointer;
+}
+
+.on {
+    margin-top: 1%;
 }

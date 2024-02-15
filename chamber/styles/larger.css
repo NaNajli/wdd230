@@ -176,8 +176,6 @@
         margin-left: 30%;
     }
 
-
-
     .list #cards {
         display: flex;
         flex-direction: column;
@@ -198,6 +196,19 @@
         font-size: 1rem;
         text-align: center;
     }
+
+    #list {
+
+        width: 100%;
+    }
+
+    #grid {
+
+        width: 100%;
+        display: block;
+    }
+
+
 
 
 
