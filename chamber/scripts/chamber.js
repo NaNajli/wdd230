@@ -16,9 +16,4 @@ function on() {
 function off() {
     document.getElementById("overlay").style.display = "none";
 }
-
-
-
-
-
-
+const week = ["Sunday", "Monday", "Tusday", "Wednesday", " Thursday", "Friday", "Saturday",]

@@ -5,7 +5,6 @@
         display: flex;
     }
 
-
     .social {
         align-self: center;
 
@@ -59,6 +58,20 @@
         font-family: "Roboto Condensed";
         text-align: left;
         font-size: 1.5rem;
+    }
+
+    .join {
+        width: 30%;
+        text-align: center;
+    }
+
+
+    #forecast {
+
+
+        flex-direction: row;
+
+
     }
 
 
@@ -220,6 +233,7 @@
 
         .navigation {
             flex-direction: row;
+
 
 
         }

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
 
 <head>
     <meta charset="UTF-8">
@@ -25,15 +25,14 @@
     <!-- Photo by <a href="https://unsplash.com/@fabienmaurin?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Fabien Maurin</a> on <a href="https://unsplash.com/photos/a-group-of-people-looking-at-a-map-FsBfA1Gwsgo?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
 -->
     <header>
-        <div>
-            <button class="join"><a href="join.html">Join</a></button>
-        </div>
+        <form class="formjoin" action="join.html">
+            <button type="submit" class="join">Join</button>
+        </form>
         <input class="location" type="button" value="🌍"><a class=' location1'
             href="https://maps.app.goo.gl/FaPHUcMd7MBCirUF9"></a>
-        <button class="setting" onclick="on()">📅</button>
+        <button class="banner" onclick="on()">📅</button>
     </header>
     <h1 class="home-title">VMC Chamber of Commerce </h1>
-
     <div id="hero">
         <div id="hero-box">
             <img id="hero-img" src="images/fabien-maurin.webp" alt="Family watching map">
@@ -51,14 +50,18 @@
     </div>
     <h2>The VMC chamber of commerce has the purpose of providing the best options for tourists, our mission is
         contribute culture and promote tourism in the city</h2>
+    <div class="hl"></div>
     <main>
         <div id="overlay" onclick="off()">
             <div id="text"></div>
-            <p>Attend the chamber of commerce meet and greet on Wednesday at 7:00 p.m.!!!</p>
+            <div>
+                <p>Attend the chamber of commerce meet and greet on Wednesday at 7:00 p.m.!!!</p>
+            </div>
         </div>
-        <section>
-            <h3>Events</h3>
-            <h4>VILLA MARIA FESTIVAL 2024</h4>
+        <section id="events">
+            <button class="btn">VILLA MARIA FESTIVAL 2024 <span class="ribbon">Events</span></button>
+            <!-- <h3>Events</h3>
+            <h4>VILLA MARIA FESTIVAL 2024</h4>-->
             <p>The edition number 56 of the central event of the Villa María Festival will take place from Friday,
                 February
                 9 to Tuesday, February 13, 2024 at the Villa María Amphitheater.</p>
@@ -73,14 +76,11 @@
                 <img id="graphic" src="https://openweathermap.org/img/wn/10d@2x.png" alt="Weather Icon">
             </div>
             <h3>Forecast</h3>
-            <div class="forecast">
-
-                <p id="day"></p>
-                <p id="fdescription"></p>
-                <p id="ftemperature"></p>
-                <img id="fgraphic" src="https://openweathermap.org/img/wn/01d@2x.png" alt="Weather Icon">
+            <div id="forecast">
+                <div class="forecast"></div>
+                <div class="fforecast"></div>
+                <div class="fforecast3"></div>
             </div>
-            <!--<img class="imgwheather" src="images/pexels-megan.webp" alt="pexels-megan">-->
         </section>
         <section>
             <h3>Spotlights</h3>
@@ -90,8 +90,9 @@
             <p>Brandon West</p>
             <p>“The beauty of tourism lies in its ability to bridge cultures, fostering understanding and appreciation
                 of our diverse world.”</p>
-            <input type="button" value="Read More" />
+            <input type="button" value="Read More">
         </section>
+        <!--<img class="imgwheather" src="images/pexels-megan.webp" alt="pexels-megan">-->
     </main>
     <footer>
         <div class="social">
@@ -113,6 +114,7 @@
     <script src="scripts/weather.js"></script>
     <script src="scripts/forecast.js"></script>
     <script src="scripts/chamber.js"></script>
+
 </body>
 
 </html>
