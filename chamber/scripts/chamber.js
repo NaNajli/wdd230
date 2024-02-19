@@ -9,11 +9,21 @@ hamButton.addEventListener('click', () => {
     hamButton.classList.toggle('open');
 });
 
+const week = ["Sunday", "Monday", "Tusday", "Wednesday", " Thursday", "Friday", "Saturday",]
+
+const date = new Date();
+const today = date.getDay();
+
 function on() {
-    document.getElementById("overlay").style.display = "block";
+    if (today == [1]) {
+        document.getElementById("overlay").style.display = "none";
+    } else { }
 }
 
 function off() {
+
     document.getElementById("overlay").style.display = "none";
+
+
 }
-const week = ["Sunday", "Monday", "Tusday", "Wednesday", " Thursday", "Friday", "Saturday",]
+

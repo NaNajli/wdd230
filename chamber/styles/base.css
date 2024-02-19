@@ -54,6 +54,7 @@ header {
     box-shadow: 1.5px 1.5px 1.5px 1.5px #005E66;
     padding: .4rem;
     margin: .5rem;
+
 }
 
 h1 {
@@ -104,11 +105,13 @@ h1 {
 .forecast,
 .fforecast,
 .fforecast3 {
-    color: #0b3435;
-    margin: 50%;
+    color: #e5e5e5;
     font-size: 1.5rem;
+    background-color: #000000;
+    padding: 12%;
 
 }
+
 
 #forecast {
 
@@ -121,13 +124,14 @@ h1 {
 
 li a {
     font-family: 'Roboto', sans-serif;
-    color: #005E66;
+    color: #0b3435;
     text-decoration: none;
     padding: .3rem;
-    box-shadow: 1px 1px;
     background-color: #EDF6F9;
     text-align: center;
-
+    box-shadow: 1.5px 1.5px 1.5px 1.5px #005E66;
+    padding: .6rem;
+    margin: .7rem;
 
 }
 
@@ -184,7 +188,7 @@ footer {
 
 
 #hero-msg {
-    grid-column: 2/3;
+    grid-column: 1/4;
     grid-row: 3/4;
     margin-top: 1px;
     padding-top: 1px;
@@ -202,6 +206,7 @@ nav .navigation {
     display: block;
     max-width: 1600px;
 
+
 }
 
 .navigation {
@@ -211,8 +216,9 @@ nav .navigation {
     max-width: 1600px;
     text-align: center;
     font-size: 1.5rem;
-
 }
+
+
 
 .navigation li {
     display: none;
@@ -259,6 +265,7 @@ section {
 h3 {
     margin: 1rem;
     text-align: center;
+    font-size: x-large;
 }
 
 h4 {
