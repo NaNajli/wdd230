@@ -28,8 +28,8 @@
         <form class="formjoin" action="join.html">
             <button type="submit" class="join">Join</button>
         </form>
-        <input class="location" type="button" value="🌍"><a class=' location1'
-            href="https://maps.app.goo.gl/FaPHUcMd7MBCirUF9"></a>
+        <!--    <input class="location" type="button" value="🌍"><a class=' location1'
+            href="https://maps.app.goo.gl/FaPHUcMd7MBCirUF9"></a>-->
         <button class="banner" onclick="on()">📅</button>
     </header>
     <h1 class="home-title">VMC Chamber of Commerce </h1>
@@ -55,7 +55,8 @@
         <div id="overlay" onclick="off()">
             <div id="text"></div>
             <div>
-                <p>Attend the chamber of commerce meet and greet on Wednesday at 7:00 p.m.!!!</p>
+                <p>Attend the chamber of commerce meet and greet on Wednesday at 7:00 p.m.!!! </p>
+                <p id="cross">✕</p>
             </div>
         </div>
         <section id="events">
@@ -76,24 +77,22 @@
                 <p id="temperature"></p>
                 <img id="graphic" src="https://openweathermap.org/img/wn/10d@2x.png" alt="Weather Icon">
             </div>
-            <h3>Forecast</h3>
+            <h3 id="titlefore">Three days weather forecast </h3>
             <div id="forecast">
                 <div class="forecast"></div>
                 <div class="fforecast"></div>
                 <div class="fforecast3"></div>
             </div>
         </section>
-        <section>
+        <section class="spotlights">
             <h3>Spotlights</h3>
             <P> <strong> Andrew Monroe</strong></P>
-            <p>“Tourism opens up a world of discovery, offering unique experiences and unforgettable memories.”</p>
-            <input type="button" value="Read More">
-            <p>Brandon West</p>
-            <p>“The beauty of tourism lies in its ability to bridge cultures, fostering understanding and appreciation
-                of our diverse world.”</p>
-            <input type="button" value="Read More">
+            <p>“Tourism opens up a world of discovery, offering unique experiences
+                and unforgettable memories.” <span id="dots">...</span><span id="more"> <strong>Brandon West</strong>
+                    “The beauty of tourism lies in its ability to bridge cultures, fostering understanding and
+                    appreciation of our diverse world.”</span></p>
+            <button onclick="myFunction()" id="myBtn">Read more</button>
         </section>
-
         <!--<img class="imgwheather" src="images/pexels-megan.webp" alt="pexels-megan">-->
     </main>
     <footer>
@@ -110,6 +109,7 @@
         </div>
         <h5>📞105 - Customer Services</h5>
         <p>Contact information : vmcchamber@gmail.com </p>
+        <div class="liner"></div>
         <p>© 2024 -Nadia Rodriguez-Argentina - Project for WDD 230</p>
         <p id="lastModified"> Last modificacion: </p>
     </footer>
