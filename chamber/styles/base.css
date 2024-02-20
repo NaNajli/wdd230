@@ -20,12 +20,23 @@ body {
     padding: .6rem;
     margin: .7rem;
     text-align: center;
-    width: 25%;
+    border-radius: 3%;
+
 }
 
 .formjoin {
     background-color: white;
     margin: 0%;
+}
+
+.formjoindisc {
+    margin: 0%;
+    padding: 0%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+
+
 }
 
 
@@ -59,14 +70,44 @@ header {
 
 }
 
+#load {
+    font-size: 2.5rem;
+    box-shadow: 1.5px 1.5px 1.5px 1.5px #005E66;
+    padding: .4rem;
+    margin: .5rem;
+    color: #000000;
+}
+
 
 h1 {
     color: #7A1F00;
     font-family: "Roboto Condensed";
-    font-size: 2.5rem;
+    font-size: xx-large;
     text-align: center;
     margin: 0%;
     padding: 0%;
+}
+
+h2 {
+    text-align: center;
+    margin: 10%;
+    font-size: 2.5rem;
+}
+
+h3 {
+    margin-top: 10%;
+    text-align: center;
+}
+
+h4 {
+    text-align: left;
+}
+
+h5 {
+    color: white;
+    padding-bottom: 2%;
+    font-family: "Light 300 Italic";
+    font-size: 1.2rem;
 }
 
 .hl {
@@ -167,12 +208,6 @@ li a {
 
 }
 
-h5 {
-    color: white;
-    padding-bottom: 2%;
-    font-family: "Light 300 Italic";
-    font-size: 1.2rem;
-}
 
 footer p {
     font-size: 1.2rem;
@@ -215,11 +250,6 @@ footer {
     padding-top: 1px;
 }
 
-h2 {
-    text-align: center;
-    margin: 10%;
-    font-size: 2rem;
-}
 
 
 nav .navigation {
@@ -273,25 +303,18 @@ nav .navigation {
     content: "X";
 }
 
-main section img {
-    max-width: 50%;
+main div img {
+    max-width: 80%;
     height: auto;
 }
 
+div,
 section {
 
     text-align: center;
 }
 
-h3 {
-    margin-top: 10%;
-    text-align: center;
-    font-size: x-large;
-}
 
-h4 {
-    text-align: left;
-}
 
 main p {
     text-align: left;
@@ -308,12 +331,12 @@ main p {
     background-color: rgba(0, 0, 0, .1);
     padding: 1rem;
     border-radius: 5px;
-    width: 90%;
+    width: 100%;
     font-size: large;
     text-align: center;
-
 }
 
+/*-----------------DISCOVER-------------------------------------*/
 
 .demographics {
     background-color: blanchedalmond;
@@ -327,6 +350,10 @@ main p {
     grid-gap: 1rem;
 }
 
+#visits {
+    text-align: right;
+}
+
 .imagesvm h2,
 h3,
 h4 {
@@ -334,7 +361,7 @@ h4 {
 }
 
 .imagesvm p {
-    text-align: justify;
+    text-align: center;
 }
 
 .imagesvm img:hover {
@@ -497,10 +524,10 @@ form {
 
 }
 
-.record p {
+#record {
 
     font-size: 3rem;
-    text-align: center;
+    margin: 10%;
 
 }
 
@@ -583,15 +610,18 @@ form {
 
 }
 
+#grid a {
+    font-size: .5rem
+}
+
 a.amemb {
     text-align: center;
     font-size: .5rem;
 
 }
 
-.memb h2 {
-    text-align: center;
-}
+
+
 
 main.directory {
     max-width: 1000px;
@@ -608,17 +638,17 @@ section.memb:hover {
     background-color: #abd1d5;
 }
 
-.directorymenu button {
-    padding: 1rem;
-    font-weight: 700;
+.directorymenu {
+
+    font-size: 3rem;
+
 }
 
-
-
-.directorymenu {
+div .directorymenu {
 
     padding: 0.5rem;
     text-align: center;
+    display: flex;
 
 }
 
@@ -649,7 +679,7 @@ section.memb:hover {
 }
 
 .list a {
-    font-size: .5rem;
+    font-size: 1rem;
     text-align: center;
 }
 

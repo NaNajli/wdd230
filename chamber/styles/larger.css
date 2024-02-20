@@ -63,6 +63,7 @@
     .pwheather {
         text-align: center;
         margin: 2%;
+        width: 90%;
     }
 
     /*-----------FORM------------*/
@@ -207,12 +208,13 @@
     }
 
     .list #cards {
+        margin-top: 15%;
         display: flex;
         flex-direction: column;
     }
 
     .list a {
-        font-size: .5rem;
+        font-size: 1rem;
         text-align: center;
     }
 
@@ -229,12 +231,12 @@
 
     #list {
 
-        width: 100%;
+        width: auto;
     }
 
     #grid {
 
-        width: 100%;
+        width: auto;
         display: block;
     }
 
@@ -254,8 +256,6 @@
         margin: 0%;
 
     }
-
-
 
 
     @media (min-width: 37.5em) {

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
 
 <head>
     <meta charset="UTF-8">
@@ -26,14 +26,16 @@
     <!-- Photo by <a href="https://unsplash.com/@fabienmaurin?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Fabien Maurin</a> on <a href="https://unsplash.com/photos/a-group-of-people-looking-at-a-map-FsBfA1Gwsgo?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
 -->
     <header>
-        <div>
-            <button class="join"><a href="join.html">Join</a></button>
-        </div>
-        <input class="location" type="button" value="Location"><a class=' location1'
-            href="https://maps.app.goo.gl/FaPHUcMd7MBCirUF9"></a>
-
-        <input class=" setting" type="button" value="Setting"><a class=' setting1' href=""></a>
+        <form class="formjoindisc" action="join.html">
+            <button type="submit" class="join">Join</button>
+            <!--  <button id="load">🔔</button>-->
+        </form>
     </header>
+    <div id="visits">
+        <p class="daytoday"></p>
+        <p class="yourvisits"></p>
+        <p class="lastDate"></p>
+    </div>
     <h1 class="home-title">VMC Chamber of Commerce </h1>
     <div id="hero">
         <div id="hero-box">
@@ -52,6 +54,7 @@
     </div>
     <h2>The VMC chamber of commerce has the purpose of providing the best options for tourists, our mission is
         contribute culture and promote tourism in the city</h2>
+    <div class="hl"></div>
     <main>
         <div class="discover">
             <section class="demographics">
@@ -69,7 +72,8 @@
                     >52%
                     women</p>
             </section>
-            <section class="imagesvm">
+
+            <div class="imagesvm">
                 <h2>Get to know Villa Maria</h2>
                 <h3>Night</h3>
                 <h4>Amphitheater</h4>
@@ -98,16 +102,14 @@
                     Voluptate, earum.</p>
                 <img src="images/plaza.webp" alt="Center Park of Villa Maria" loading="lazy" width="1000" height="500">
                 <img src="images/parque.webp" alt="Center Park Villa Maria" loading="lazy" width="1000" height="500">
-
-            </section>
+            </div>
         </div>
+
     </main>
     <footer>
-        <span class="label"></span><span class="visits"></span>
         <div class="social">
             <a href="https://facebook.com">
                 <img src="images/facebook.png" alt="fb icon">
-
             </a>
             <a href="https://twitter.com">
                 <img src="images/twitter.png" alt="twitter icon">
@@ -118,10 +120,13 @@
         </div>
         <h5>📞105 - Customer Services</h5>
         <p>Contact information : vmcchamber@gmail.com </p>
+        <div class="liner"></div>
         <p>© 2024 -Nadia Rodriguez-Argentina - Project for WDD 230</p>
         <p id="lastModified"> Last modificacion: </p>
     </footer>
     <script src="scripts/chamber.js"></script>
+    <script src="scripts/visit.js"></script>
+
 </body>
 
 </html>
