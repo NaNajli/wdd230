@@ -14,7 +14,7 @@ async function forecastWeather(myforecast) {
     try {
         if (response.ok) {
             const data = await response.json();
-            console.table(data);
+           // console.table(data);
             displayForecast(data.list)
         } else {
             throw Error(await response.text());

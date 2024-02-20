@@ -54,9 +54,11 @@ header {
     box-shadow: 1.5px 1.5px 1.5px 1.5px #005E66;
     padding: .4rem;
     margin: .5rem;
+    color: #000000;
 
 
 }
+
 
 h1 {
     color: #7A1F00;
