@@ -15,9 +15,8 @@ const date = new Date();
 const today = date.getDay();
 
 function on() {
-    if (today == [1]) {
-        document.getElementById("overlay").style.display = "none";
-    } else { }
+    document.getElementById("overlay").style.display = "block";
+
 }
 
 function off() {
