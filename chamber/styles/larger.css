@@ -16,6 +16,11 @@
 
     }
 
+    .imagesvm p {
+        text-align: center;
+        font-size: 1.5rem;
+    }
+
 
     #hero-msg {
         grid-column: 2/3;
@@ -256,6 +261,15 @@
         margin: 0%;
 
     }
+
+    a.amemb {
+        text-align: center;
+        font-size: 1rem;
+        word-wrap: break-word;
+        
+
+    }
+
 
 
     @media (min-width: 37.5em) {

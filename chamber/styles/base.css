@@ -91,7 +91,7 @@ h1 {
 h2 {
     text-align: center;
     margin: 10%;
-    font-size: 2.5rem;
+    font-size: 2rem;
 }
 
 h3 {
@@ -362,6 +362,8 @@ h4 {
 
 .imagesvm p {
     text-align: center;
+    font-size: 1rem;
+    margin: 3%;
 }
 
 .imagesvm img:hover {
@@ -617,6 +619,8 @@ form {
 a.amemb {
     text-align: center;
     font-size: .5rem;
+    word-wrap: break-word;
+    padding-top: 5%;
 
 }
 
@@ -631,22 +635,20 @@ section.memb {
     margin: 10%;
     padding: 10%;
     border-style: dashed;
-    border-radius: 10%;
+
 }
 
 section.memb:hover {
     background-color: #abd1d5;
+
 }
 
 .directorymenu {
-
     font-size: 3rem;
-
 }
 
 div .directorymenu {
 
-    padding: 0.5rem;
     text-align: center;
     display: flex;
 
@@ -658,7 +660,8 @@ div .directorymenu {
 }
 
 .list section.memb {
-    border-style: none;
+    /*border-style: none;*/
+    border: 1px solid;
 }
 
 .list section:nth-child(even) {
@@ -678,10 +681,6 @@ div .directorymenu {
     flex-direction: column;
 }
 
-.list a {
-    font-size: 1rem;
-    text-align: center;
-}
 
 .list h2 {
     font-size: .5rem;
@@ -692,6 +691,7 @@ div .directorymenu {
 .list p {
     font-size: .5rem;
     text-align: center;
+    padding-top: 1rem;
 }
 
 
