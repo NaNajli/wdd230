@@ -134,12 +134,12 @@
     }
 
     .gold h4 {
-        color: white;
-        font-size: 3rem;
+        color: #0b3435;
+        font-size: 2rem;
         position: absolute;
-        top: 24%;
-        left: 11%;
-        background-color: rgba(228, 167, 247, 0.1);
+        top: 30%;
+        left: 20%;
+
     }
 
     .mainform {

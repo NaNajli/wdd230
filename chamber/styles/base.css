@@ -497,10 +497,10 @@ input#description {
 }
 
 .gold h4 {
-    background-color: rgba(228, 167, 247, 0.1);
+
     font-size: 2rem;
     position: absolute;
-    color: white;
+    color: #0b3435;
     top: 55%;
     left: 15%;
 
