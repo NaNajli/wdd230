@@ -443,13 +443,15 @@ fieldset {
     font-size: 3rem;
 }
 
-
+input#email {
+    font-size: 1.5rem;
+    padding: 3%;
+}
 
 input#name,
 input#lastname,
 input#position,
 input#phone,
-input#email,
 input#org,
 input#description {
     font-size: 2rem;
@@ -498,11 +500,12 @@ input#description {
 
 .gold h4 {
 
-    font-size: 2rem;
+    font-size: 1rem;
     position: absolute;
     color: #0b3435;
-    top: 55%;
+    top: 70%;
     left: 15%;
+
 
 }
 
