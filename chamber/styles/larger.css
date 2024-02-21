@@ -221,11 +221,13 @@
     .list a {
         font-size: 1rem;
         text-align: center;
+        color: #0b3435;
     }
 
     .list h2 {
         font-size: 1rem;
         text-align: center;
+        color: #7A1F00;
 
     }
 
@@ -266,7 +268,7 @@
         text-align: center;
         font-size: 1rem;
         word-wrap: break-word;
-        
+
 
     }
 
