@@ -157,8 +157,8 @@
         color: #EDF6F9;
         font-size: 2rem;
         position: absolute;
-        top: 40%;
-        left: 60%;
+        top: 30%;
+        left: 40%;
 
     }
 
@@ -166,9 +166,10 @@
         color: #EDF6F9;
         font-size: 1rem;
         position: absolute;
-        top: 60%;
-        left: 60%;
+        top: 50%;
+        left: 42%;
         margin: 1%;
+        border-left: none;
     }
 
 
